@@ -1,4 +1,6 @@
-# Formaço — implementation and test report
+# Formaço — historical version-one implementation and test report
+
+Current release: see RELATORIO_ATUALIZACAO.md and README.md for version 2.0.
 
 Delivery date: 2026-10-05. The self-contained application is `index.html`. Its CSS, JavaScript, runtime dependencies and full licence notices are embedded. The source, README, credits, complete licence notices, publication assets, editable examples and ten pairs of OTF/WOFF exports accompany it. Supporting documents are not needed to run the application. No website deployment was performed. GitHub delivery is recorded separately in the accompanying conversation.
 

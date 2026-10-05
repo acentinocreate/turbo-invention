@@ -1,0 +1,178 @@
+[
+  {
+    "check": "Portuguese document and terminology",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "One H establishes stems, not unseen bowls",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Unobserved diagonal adaptation requires explicit selection",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Reference stem extraction has real dimensions",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Diagonal editor shows a stem instead of a square",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Component selector can leave current editing mode",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Arch component contains actual cubic shoulders",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Switching components retains unsaved draft",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Unsaved component edits must be saved before approval",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Wheel zoom anchors the cursor",
+    "passed": true,
+    "detail": {
+      "before": [
+        691.5098876953125,
+        605.2352294921875
+      ],
+      "after": [
+        691.5098876953125,
+        605.2352294921875
+      ]
+    }
+  },
+  {
+    "check": "Wheel zoom changes magnification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Middle-button pan changes viewport without outlines",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Fit resets zoom",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Zoom maximum is bounded",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Node targets retain screen size at zoom",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Node drag at zoom changes geometry without refitting",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Zoomed edit is undoable",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "g central counter uses four Bézier nodes",
+    "passed": true,
+    "detail": {
+      "g": [
+        {
+          "nodes": 29,
+          "cubics": 19
+        },
+        {
+          "nodes": 4,
+          "cubics": 4
+        }
+      ],
+      "O": [
+        4,
+        4
+      ]
+    }
+  },
+  {
+    "check": "O uses four nodes per contour",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Master repair retains already corresponding cubic counters",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Legacy dense glyph reduction has measured bound",
+    "passed": true,
+    "detail": 165
+  },
+  {
+    "check": "Node reduction restores exact prior contours on undo",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Locked outlines cannot be reduced",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Multiple references establish bowl and shoulder sources",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Extraction retains actual asymmetric approved O",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Generated o records the extracted O geometry source",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Accent proposals reuse edited base outline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Version-one project remains compatible",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No revision browser exceptions",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "No revision runtime network calls",
+    "passed": true,
+    "detail": [
+      "http://127.0.0.1:8080/index.html"
+    ]
+  }
+]

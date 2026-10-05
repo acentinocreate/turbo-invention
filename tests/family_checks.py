@@ -34,12 +34,12 @@ with sync_playwright() as p:
  (ROOT/'examples'/'family-study.formaco.json').write_text(page.evaluate('JSON.stringify(Formaco.project,null,2)'))
  # Storage failure remains recoverable and does not prevent edits.
  page.evaluate("Storage.prototype.setItem=function(){throw new DOMException('Quota exceeded','QuotaExceededError')};Formaco.save()")
- page.wait_for_timeout(500);check('Storage failure warning',page.locator('#saveState').inner_text()=='Backup required')
+ page.wait_for_timeout(500);check('Storage failure warning',page.locator('#saveState').inner_text()=='Cópia de segurança necessária')
  check('Edits remain usable after storage failure',page.evaluate("""()=>{Formaco.setSelection('H','regular');const r=Formaco.project.revision;Formaco.ACT.selectNextContour();Formaco.ACT.duplicate();return Formaco.project.revision===r+1}"""))
  # Bad autosave must survive untouched, with a raw recovery download.
  recovery=b.new_page();recovery.goto('http://127.0.0.1:8080/index.html');recovery.evaluate("localStorage.setItem('formaco.project.v1','{unreadable');");recovery.reload();recovery.wait_for_timeout(400)
  check('Unreadable autosave retained',recovery.evaluate("localStorage.getItem('formaco.project.v1') === '{unreadable'"))
- recovery.locator('summary').filter(has_text='Inspection').click()
+ recovery.locator('summary').filter(has_text='Inspeção').click()
  with recovery.expect_download() as info:recovery.click('[data-act=recovery]')
  info.value.save_as('/tmp/formaco-recovered-raw.json');check('Raw recovery download',Path('/tmp/formaco-recovered-raw.json').read_text()=='{unreadable')
  check('No family browser exceptions',not errors,str(errors))

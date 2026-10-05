@@ -14,7 +14,7 @@ with sync_playwright() as p:
   else:page.click('[data-act=capture]')
   page.click('[data-act=approveComponent]')
  check('One/multiple reference geometry extraction',page.evaluate("""()=>{const p=Formaco.project,d=Formaco.generate('D',Formaco.selectedStyle);return d.componentVersions.vertical.source.includes('H')&&d.componentVersions.bowl.source.includes('O')&&p.components.bowl.contours.length===2}"""))
- check('Exact-preservation constraint rejects resizing',page.evaluate("""()=>{const c=Formaco.project.components.bowl,old=c.policy;c.policy='exact';let rejected=false;try{Formaco.generate('o',Formaco.selectedStyle)}catch(e){rejected=e.message.includes('preserve exactly')}c.policy=old;return rejected}"""))
+ check('Exact-preservation constraint rejects resizing',page.evaluate("""()=>{const c=Formaco.project.components.bowl,old=c.policy;c.policy='exact';let rejected=false;try{Formaco.generate('o',Formaco.selectedStyle)}catch(e){rejected=e.message.includes('preservar exatamente')}c.policy=old;return rejected}"""))
  # Per-style override does not mutate shared component geometry.
  page.select_option('#componentScope','style');page.select_option('#componentList','bowl');page.click('[data-act=capture]')
  check('Style component override separate from shared',page.evaluate("""()=>{const p=Formaco.project,s=Formaco.selectedStyle;return s.components.bowl!==p.components.bowl&&s.components.bowl.source!==p.components.bowl.source}"""))
@@ -53,7 +53,7 @@ with sync_playwright() as p:
  # Safe content handling in metadata and imported filenames.
  page.evaluate("document.querySelector('#designer').value='<img src=x onerror=alert(1)>';document.querySelector('#designer').dispatchEvent(new Event('change'))")
  check('Imported/typed text is not executable HTML',page.locator('img[src=x]').count()==0)
- page.locator('summary').filter(has_text='Extend & propagate').click();page.fill('#customChar','U+1F701');page.click('[data-act=addChar]');check('Supplementary Unicode scalar accepted',page.evaluate('Formaco.project.characters.includes(String.fromCodePoint(0x1f701))'))
+ page.locator('summary').filter(has_text='Ampliar e atualizar').click();page.fill('#customChar','U+1F701');page.click('[data-act=addChar]');check('Supplementary Unicode scalar accepted',page.evaluate('Formaco.project.characters.includes(String.fromCodePoint(0x1f701))'))
  custom=page.evaluate("() => {const ch=String.fromCodePoint(0x1f701);Formaco.selectedStyle.glyphs[ch]=Formaco.clone(Formaco.selectedStyle.glyphs.H);return Array.from(Formaco.exportFont(Formaco.selectedStyle));}");Path('/tmp/Formaco-custom.otf').write_bytes(bytes(custom))
  from fontTools.ttLib import TTFont
  customfont=TTFont('/tmp/Formaco-custom.otf');check('Independent supplementary cmap extraction',0x1f701 in customfont.getBestCmap());customfont.close()

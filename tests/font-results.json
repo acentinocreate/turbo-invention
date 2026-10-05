@@ -70,6 +70,11 @@
     "detail": ""
   },
   {
+    "check": "FormacoStudy-bold-italic g four-cubic counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "check": "FormacoStudy-bold-italic all marks covered",
     "passed": true,
     "detail": ""
@@ -176,6 +181,11 @@
   },
   {
     "check": "FormacoStudy-bold O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold g four-cubic counter",
     "passed": true,
     "detail": ""
   },
@@ -290,6 +300,11 @@
     "detail": ""
   },
   {
+    "check": "FormacoStudy-light-italic g four-cubic counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "check": "FormacoStudy-light-italic all marks covered",
     "passed": true,
     "detail": ""
@@ -396,6 +411,11 @@
   },
   {
     "check": "FormacoStudy-light O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light g four-cubic counter",
     "passed": true,
     "detail": ""
   },
@@ -510,6 +530,11 @@
     "detail": ""
   },
   {
+    "check": "FormacoStudy-medium-italic g four-cubic counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "check": "FormacoStudy-medium-italic all marks covered",
     "passed": true,
     "detail": ""
@@ -616,6 +641,11 @@
   },
   {
     "check": "FormacoStudy-medium O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium g four-cubic counter",
     "passed": true,
     "detail": ""
   },
@@ -730,6 +760,11 @@
     "detail": ""
   },
   {
+    "check": "FormacoStudy-regular-italic g four-cubic counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "check": "FormacoStudy-regular-italic all marks covered",
     "passed": true,
     "detail": ""
@@ -836,6 +871,11 @@
   },
   {
     "check": "FormacoStudy-regular O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular g four-cubic counter",
     "passed": true,
     "detail": ""
   },
@@ -950,6 +990,11 @@
     "detail": ""
   },
   {
+    "check": "FormacoStudy-semibold-italic g four-cubic counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
     "check": "FormacoStudy-semibold-italic all marks covered",
     "passed": true,
     "detail": ""
@@ -1056,6 +1101,11 @@
   },
   {
     "check": "FormacoStudy-semibold O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold g four-cubic counter",
     "passed": true,
     "detail": ""
   },

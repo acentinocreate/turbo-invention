@@ -43,6 +43,12 @@ for path in sorted((ROOT/'examples').glob('*.otf')):
  sample=SamplePen(gs);gs[cmap[ord('O')]].draw(sample)
  areas=[sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(p,p[1:]))/2 for p in sample.paths]
  record(stem+' O preserved counter winding',len(areas)==2 and areas[0]*areas[1]<0)
+ pen=RecordingPen();gs[cmap[ord('g')]].draw(pen);paths=[];current=[]
+ for op,args in pen.value:
+  if op=='moveTo':current=[]
+  elif op=='closePath':paths.append(current)
+  else:current.append((op,args))
+ record(stem+' g four-cubic counter',any(len(p)==4 and all(op=='curveTo' for op,_ in p) for p in paths))
  mark=next(l for l in font['GPOS'].table.LookupList.Lookup if l.LookupType==4).SubTable[0]
  record(stem+' all marks covered',all(cmap[ord(c)] in mark.MarkCoverage.glyphs for c in '\u0301\u0300\u0302\u0303\u0308\u0327'))
  record(stem+' base anchors covered',all(cmap[ord(c)] in mark.BaseCoverage.glyphs for c in 'ACEIOUaceiou'))

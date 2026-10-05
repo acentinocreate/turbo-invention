@@ -22,7 +22,7 @@
   {
     "check": "Generation performance",
     "passed": true,
-    "detail": "0.13s, Chromium 1440\u00d71100"
+    "detail": "0.38s, Chromium 1440\u00d71100"
   },
   {
     "check": "Approved/manual preservation",

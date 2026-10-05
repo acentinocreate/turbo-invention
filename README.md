@@ -1,117 +1,122 @@
-# Formaço
+# Formaço — versão 2.0
 
-A local reference-lettering atelier. Reconstruct approved artwork as editable contours, extract reusable components, review anatomical proposals, develop separate weight and italic drawings, and export real static fonts.
+Ateliê tipográfico local para reconstruir referências autorizadas, extrair construções, desenhar glifos vetoriais e desenvolver famílias editáveis. Interface, mensagens e termos tipográficos em português.
 
-**Open `index.html` directly in a browser or put it on ordinary static hosting.** It embeds its CSS, application JavaScript, dependency code and third-party licence notices. There is no end-user installation, build, account, API key, CDN or server requirement. It makes no network calls during editing or export. Supporting files are documentation and examples, not runtime dependencies.
+## Abrir
 
-An optional development server is `python -m http.server 8080` from this directory. Each cloud task already has an isolated checkout; use the existing checkout, without creating a Git worktree unless explicitly requested.
+Extraia a pasta e abra **index.html** no navegador. O HTML contém CSS, JavaScript, bibliotecas e avisos completos de licença. Nenhuma instalação, compilação, conta, chave, CDN ou servidor é necessária para editar e exportar. O funcionamento normal não faz chamadas de rede. Os documentos não são dependências do aplicativo.
 
-## Start a design
+Para desenvolvimento, opcionalmente execute `python -m http.server 8080` na pasta. Cada tarefa na nuvem já possui checkout isolado; use-o sem criar worktrees adicionais, salvo solicitação explícita.
 
-1. Import authorized PNG, JPEG or SVG artwork and identify its character and style. Alternatively, load the original H/O/n starter. Multiple references can be assigned to a character. Choose a primary reference or reassign conflicting references to different styles.
-2. Correct a raster image: normalized crop, rotation, four perspective corners, contrast and foreground inversion. Apply correction, then adjust trace threshold and simplification. The original remains separate. SVG loads filled vectors directly unless you correct it first, in which case it is traced as a raster.
-3. Trace/load or use the pen to draw. Compare the overlay, align it and repair the contours. Confirm the reconstruction yourself. Tracing never establishes accuracy automatically.
-4. Analyze the confirmed drawing. Inspect measured bounds, candidate scanline stem widths and long-edge slant. Define missing heights, stroke contrast, curvature, terminals, openings and anatomical alternatives yourself. Each measurement records its source and descriptive confidence.
-5. Capture a whole contour set or selected contour into a named component. **Extract region** intersects an approved drawing with a font-unit rectangle, useful for a stem or terminal in a connected letter. Edit the component in the same vector editor. Choose a shared component or a current-style override, its treatment policy, and approve it.
-6. Approve construction decisions. Propose H/O/A/n/o/a/g first. Inspect component revisions, measurement sources and unresolved constraints in Inspection; review every representative before extending. Propose one character, a group, missing characters or the complete set. The preview shows replacements and supports selective application. Approved, manually edited, reference-derived and locked glyphs are preserved.
-7. Develop Light and Bold extremes separately. References and component overrides may differ by style. Generated extremes are starting proposals, not a conclusion drawn from Regular. Approve representative extremes before interpolation. Incompatibility is reported per glyph. Use explicit contour alignment for the same topology, or draw an independent intermediate.
-8. For Italic, approve the separate single-storey a/g, narrower rhythm and exit-terminal proposals, or supply independent references/drawings. Review the seven representatives before extending. Repeat extreme-master development for italics. Oblique is a separately labelled shear operation.
-9. Proof Portuguese coverage, spacing and diagonals. Set bearings or advances, pair kerning and accent anchors/optical adjustments. Review accent rebuilding before applying it. Export a style or the enabled family. Disabled styles are omitted.
+## Novidades
 
-Use the character panel to change glyphs and the family shelf to change styles. The panel labelled **Coordinates, geometry, anchors & spacing** expands numeric controls. User-drawn SVG output is geometry; UI text uses locally available system monospace fonts.
+- Zoom de 25% a 3200%, centrado no cursor; roda do mouse, botões −/+ e **Ajustar à tela**. **Espaço + arrastar**, botão central ou **Mover vista** deslocam a vista. Zoom não altera contornos nem entra no histórico de edição.
+- Nós e alças mantêm tamanho de interação na tela. A câmera fica estável durante ajustes. Pontos coincidentes no fechamento aparecem como um único nó e se movem juntos.
+- Operações booleanas preservam curvas completas e contraformas intactas. Trechos resultantes podem ser reconstruídos como Bézier com verificação de desvio. Círculos simples usam quatro nós por contorno; formas complexas não são obrigadas a ter quatro nós.
+- **Reduzir nós…** permite comparar uma simplificação de glifos antigos antes de aplicar. Desvio e contagens ficam na inspeção. Bloqueios e desfazer são respeitados.
+- **Extrair construções das referências…** propõe peças de desenhos confirmados, apresenta origem/método e aponta construções ausentes. Adaptar uma haste para diagonal não observada exige seleção explícita.
+- Acentos reutilizam a letra-base já desenhada. Alinhamento de mestres preserva contornos que já correspondem, sem reamostrar tudo.
+- Seletor de componentes corrigido, rascunhos preservados ao trocar de peça, nomes como **Arco e ombro**, botão **Voltar à letra** e glossário.
 
-## What construction does and does not infer
+## Primeiro projeto
 
-There are no stock font outlines and no hidden model. Character recipes describe anatomy and assemble vertical/horizontal/diagonal strokes, bowls, arches, terminal/serif parts and accent components. The supplied starter components are independent original drawings and remain unapproved until chosen. Captured contours preserve their source geometry before adaptation; each generated glyph saves component source/revision and measurement snapshots. One H cannot determine an O: its bowl must be supplied, drawn, or explicitly accepted as a separate proposal.
+1. Em **01 / Referências**, use **Exemplos originais** ou importe PNG/JPEG/SVG autorizado. Identifique caractere e estilo. O seletor abaixo dos botões escolhe uma referência existente.
+2. Compare a **Sobreposição**, com opacidade/alinhamento ajustáveis. Imagens originais e corrigidas ficam separadas. Corrija raster antes de vetorizar; SVG preenchido simples carrega contornos diretamente.
+3. Repare nós/alças. Clique em **Confirmar reconstrução**, depois **Analisar forma confirmada**. Vetorizar não comprova precisão.
+4. Use **Extrair construções das referências…**. Selecione propostas, confira recortes e aprove peças que aceitar. Componentes ausentes precisam de desenho, outra referência ou aceitação explícita de uma proposta original.
+5. Escolha modo, medidas, aberturas, terminais e formas de a/g. **Aprovar estas decisões** não aprova glifos.
+6. Em **03 / Ampliar e atualizar**, proponha **Representantes H O A n o a g**. Compare, aplique seletivamente e revise antes de ampliar. Desenhos reconstruídos, editados, aprovados e bloqueados são preservados.
+7. Desenvolva extremos Leve/Negrito e estruturas itálicas separadamente. Revise representantes antes de interpolar. Incompatibilidades ficam identificadas, sem substituição silenciosa.
+8. Examine português, diagonais e espaçamento na **Prova**. Ajuste margens, avanços, pares e âncoras.
+9. **Salvar projeto** baixa JSON editável; **Abrir projeto** restaura. Exporte um estilo ou a família habilitada. Fontes são estáticas: edições exigem reexportação.
 
-Automatic analysis measures bounds, estimates stem runs at three scanlines and finds the slant of a long straight edge. It does **not** recognize a character, establish optical stem thickness, infer serif intent, prove stylistic compatibility, or estimate a statistical confidence. Contrast, contrast axis, overshoot, proportions, anatomical alternatives and serif/corner/terminal geometry require user decisions. Conflict checks compare available numerical measurements; terminal and conceptual incompatibility still require visual review.
+## Referências e fidelidade
 
-- **Faithful reconstruction** preserves confirmed individual drawings and disables alphabet inference.
-- **Coherent extension** fits authorized components to character anatomy. Component envelope scaling and the explicit arch/bowl weight deformation are proposals requiring optical review; they can distort subtle details.
-- **Regularized development** additionally rounds new candidate geometry to a two-unit grid. Existing reviewed drawings remain protected.
+Não há contornos de fontes prontas escondidos nem modelo remoto. Receitas anatômicas usam componentes vetoriais. H/O/n e peças originais foram desenhados independentemente para este projeto.
 
-“Preserve exactly” forbids component resizing, incompatible bowl stroke/axis changes, slant/italic transformation and regularization. Proportional/shared/optical policies authorize proposal adaptation; shared geometry is propagated only through an explicit preview. Envelope fitting can change aspect ratio and is disclosed for review. Optical permission is not automatic professional optical correction. Design notes are stored review reminders, not an executable design program. Measured reference slant is recorded separately from requested additional slant.
+A análise mede limites, estima hastes em três linhas de varredura e observa inclinação de uma borda longa. Não reconhece letras nem infere automaticamente intenção óptica, serifas, terminais ou anatomias ausentes. Inclinação observada é separada da adicional solicitada.
 
-Geometric/grotesque and modular display constructions are the most directly supported recipes. Humanist, rounded, serif and slab details can use custom components. Stencil, organic and experimental contours are editable and exportable, but complex contextual joins, negative-space bridges, cursive connectivity and unusual anatomies need independent drawing or substantial manual editing. Automatic faithful extension of every such construction is **not implemented**. The application rejects missing recipes rather than replacing them with a generic font.
+A extração usa referências principais confirmadas do estilo atual. O/o/0 podem fornecer um bojo completo; n fornece arco. Bordas longas fornecem recortes de hastes/travessas. Diagonais observadas fornecem trechos convertidos a eixo local. Bojos parciais e ombros recortados são alternativas desmarcadas. Um H não estabelece uma curva O. Nenhuma extração aprova automaticamente a peça.
 
-## Editing, family links and spacing
-
-The core consists of closed or open M/L/C/Z contours with editable on-curve points and Bézier controls, not pixels. Pen clicks add lines; drag a new point to create a cubic. Selection moves a contour; Nodes edits endpoints and handles. Numeric points and next-point/next-contour buttons support keyboard editing. Enter closes a pen path, Delete removes a selected node, arrows move selected geometry; Ctrl/Cmd-Z and Shift-Z undo/redo outside text fields.
-
-Tools include subdivision, segment-to-cubic conversion, deleting points, connecting two open paths, open/close, duplicate, move/scale/rotate, horizontal reflection, and union/difference/intersection. Boolean operations adaptively flatten cubic segments to 0.6 font units and preserve nested counters. Resulting outlines remain the same in the editor, specimen, SVG and font exports. Canonical editable glyph coordinates have **one-font-unit precision** so CFF export does not independently round them. Requested numeric point values are retained in Inspection. Metrics record requested and effective values; editing advance applies it, while changing bearings calculates the effective advance from them.
-
-Shared edits flag styles for review and never automatically regenerate. The modal lists affected glyphs/styles, compares old/new geometry and allows selective application with undo. Manually corrected or approved glyphs remain protected. Detach a glyph/style or use a style component override to preserve an independent direction.
-
-Intermediate weights require equal contour counts, command types, orientation, counter nesting/order and construction decisions. These tests cannot establish semantic point correspondence. **Align extreme contours** explicitly resamples each corresponding contour to 64 points, retaining contour order. Review its preview and the resulting curves: it is not an automatic contour-order repair. Different topology must be redrawn or kept independent. Manual corrections become local overrides.
-
-True italic proposals alter anatomy choices and terminals in addition to slant/width. Their limited recipes do not constitute a universal italic designer. Upright and italic masters interpolate separately. Oblique only shears existing outlines and is labelled accordingly.
-
-Specimens use designed advances and GPOS pair values. Ink/paper, size, tracking, leading and monospaced proof spacing are application settings; tracking/leading/monospace are not written into the font. SVG previews fit the available screen width. Unsupported glyphs are red dashed boxes with explicit Unicode listings. Bounds-based line margins include high accents and low cedillas. Pair kerning is implemented; kerning groups are not offered.
-
-## Coverage and exports
-
-Default coverage is **136 mapped characters**: A–Z, a–z, 0–9, all requested Portuguese upper/lower accents including Ü/ü and Ç/ç; space/NBSP; requested punctuation, quotation marks, ordinals and currency signs; and acute, grave, circumflex, tilde, diaeresis and cedilla combining marks.
-
-Base top/bottom anchors and per-glyph/per-style optical shifts drive accents. Review accent rebuilding from the current base and component: protected outlines are replaced only through the explicit comparison. Separate i dots can be replaced with an accent or preserved as an approved decision. Custom mappings accept single Unicode scalars or `U+E000` notation; duplicates, controls, format controls and surrogate values are rejected. Supplementary-plane mapping uses the font library's cmap support.
-
-Export glyph/group/all SVGs, typed SVG proofs and comparison SVGs. Export installable CFF OpenType `.otf` and standards-compliant uncompressed `.woff` with identical outlines/metrics, Unicode cmap, OS/2 weights, italic flags, safe PostScript names, legacy and typographic family names, metadata, GPOS pair kerning, GDEF mark classes, and GPOS top/bottom mark-to-base anchors. GSUB `ccmp` maps supported Portuguese base+mark pairs to the corresponding editable precomposed glyphs. The app's decomposed preview follows those recorded composition pairs and otherwise uses anchors; independent HarfBuzz tests also exercise mark positioning on a non-precomposable H+acute sequence. No claim relies on preview NFC normalization.
-
-The family ZIP contains OTF and WOFF files for each enabled style, an editable project, a coverage/style/licence README and a LICENSE.txt containing the chosen font licence. Fonts are static snapshots. Re-export after editing. A family with enabled empty styles must first develop or disable them. Export blocks open, invalid, degenerate or detected self-intersecting contours. Overhangs remain legal and are reported for review.
-
-**Not implemented:** variable fonts, hinting, local-font import, mark-to-mark stacking, arbitrary multi-mark shaping, ligature design beyond Portuguese composition, contextual scripts, automatic kerning, vertical typography, automatic skeleton extraction, pixel/liquid/random-symbol tools. Native desktop font-manager grouping has not been tested; metadata and browser CSS family/style selection have been checked independently. Technical font validity does not establish visual quality.
-
-## Project limits and safety
-
-| Limit | Implemented bound |
+| Modo | Comportamento |
 | --- | --- |
-| Reference file | 8 MB PNG/JPEG/SVG |
-| Decoded reference dimensions | 4096 × 4096 maximum |
-| References | 24 |
-| Project JSON | 32 MB |
-| Mapped glyphs | 256, including the default 136 |
-| Styles | 24 |
-| Commands per glyph/component | 8,000 |
-| Coordinate extent | ±10,000 font units |
-| Advance width | 0–4,000 |
-| Undo/redo | 40 snapshots, 64 MB serialized-history budget |
-| Specimen text | 12,000 characters in imported projects |
-| Raster trace resolution | 220 × 280, followed by adjustable simplification |
+| Reconstrução fiel | Preserva desenhos individuais; ampliação automática desativada. |
+| Ampliação coerente | Adapta componentes autorizados às anatomias, para revisão. |
+| Desenvolvimento regularizado | Também aplica grade de duas unidades aos candidatos novos. |
 
-These are ceilings, not performance guarantees. The low trace resolution prioritizes responsiveness; intricate references require manual correction. Keep practical projects smaller than the ceilings, particularly on mobile. Photograph scale and perspective are user-specified, not detected. Perspective resampling uses nearest-neighbor sampling and can lose fine raster detail. Crop bounds and simplification are explicit. Raster correction produces a 700-pixel-high image, with automatic aspect-preserving width or an explicitly selected width up to 1,200 pixels. File signatures and dimensions are checked before raster decoding. Original and corrected overlay layers can be selected separately.
+**Preservar exatamente** recusa redimensionamento, mudanças incompatíveis de espessura/eixo, inclinação e regularização. Outras políticas permitem adaptação; proporções sutis podem mudar. Notas são lembretes, não comandos geométricos.
 
-SVG import permits plain filled SVG/groups/paths/rectangles/circles/ellipses/polygons/polylines/lines and rejects scripts, events, styles, resource URLs, filters, masks, images, foreign objects and entities. Visible strokes must be outlined before import. Only plain filled geometry is reconstructed; complex painted compositions should use corrected raster tracing. SVG text is rejected instead of silently converted using an unrelated font. Rounded rectangle radii should be converted to paths before import. Supplied references must be owned or authorized; there is no rights-verification service.
+Geométricas, grotescas e modulares são as construções mais diretamente atendidas. Outros estilos podem usar peças próprias. Junções contextuais, pontes de estêncil, cursivas e anatomias orgânicas/experimentais complexas precisam de desenhos independentes. Não há inferência fiel universal a partir de uma letra.
 
-Autosave and theme use local storage. JSON backups preserve references, corrections, contours, components, measurements, policies, anchors, Unicode mappings, styles, master links, local overrides, metrics, kerning and approval states. Storage failure leaves editing usable and displays a backup warning. Unreadable autosave is retained verbatim; a recovery download is offered and autosaving is disabled until a healthy browser session is started. Opening malformed JSON leaves the current project unchanged. History does not survive reload. Avoid moving between file and HTTP origins without a JSON backup: their storage is separate.
+## Editor e curvas
 
-## Browser support and validation
+Caneta: clique para reta, arraste para Bézier. Enter fecha; Delete exclui nó; setas movem seleção; Ctrl/Cmd-Z e Shift-Z desfazem/refazem fora de campos. Coordenadas e navegação de pontos permitem edição por teclado.
 
-| Browser/platform | Status |
+Há subdivisão, divisão/união, abrir/fechar, duplicação, transformação, espelhamento e operações booleanas. Estas usam polygon-clipping e achatamento adaptativo de 0,6 unidade. Preservam contornos inteiros correspondentes e reconstroem curvas com tolerância nominal de 0,8 unidade. Aproximações recusadas mantêm segmentos. A precisão canônica é uma unidade, igual no editor, prova e exportações.
+
+**Reduzir nós…** exige comparação/aplicação explícitas. Tolerância solicitada e desvio efetivo ficam na inspeção; o desvio não pode superar a tolerância mais 1,5 unidade de margem de precisão. Cantos detectados, orientação e contornos são preservados; resultados inválidos são recusados. Desenhos antigos não são simplificados ao abrir.
+
+Em candidatos gerados, segmentos minúsculos que cruzam após arredondamento podem ser retirados apenas com desvio até 1,5 unidade e geometria válida. O reparo é registrado para revisão e não atua sobre componentes exatos.
+
+## Família, acentos e exportação
+
+Cinco pesos e itálicos: Leve 300, Regular 400, Médio 500, Seminegrito 600, Negrito 700. Estilos adicionais podem ser nomeados/desabilitados. Regular não estabelece automaticamente os extremos.
+
+Interpolação verifica contagem, comandos, orientação, ordem/nesting e decisões. **Alinhar contornos dos extremos** preserva pares correspondentes e reamostra apenas incompatíveis em 64 pontos. Isso não comprova correspondência semântica. Topologias diferentes precisam de desenho independente. Correções locais não são sobrescritas por atualizações compartilhadas.
+
+Propostas itálicas alteram anatomias/terminais/proporções limitados, além da inclinação. Mestres retos/itálicos são separados. **Criar oblíquo** apenas inclina o desenho reto.
+
+São 136 mapeamentos padrão: A–Z/a–z, algarismos, acentos portugueses solicitados, Ü/ü, Ç/ç, ordinais, pontuação, moedas, espaço/NBSP e seis marcas combinantes. Âncoras e ajustes por glifo/estilo posicionam acentos. Mapeamentos adicionais aceitam um escalar Unicode, incluindo plano suplementar; duplicatas/controles são recusados.
+
+Prova e fonte usam os mesmos avanços e ajustes de pares. Espaçamento geral, entrelinha e modo monoespaçado são opções da prova. Caracteres ausentes aparecem tracejados.
+
+SVG de glifo/grupo/conjunto/prova/comparação; OTF CFF; WOFF válido sem compressão; ZIP da família com fontes, projeto, README e licença escolhida. Geometria inválida, aberta, degenerada ou com cruzamentos detectados bloqueia exportação.
+
+Fontes contêm cmap, contornos reais, métricas, pesos/indicadores itálicos, nomes seguros e famílias legadas/tipográficas, GPOS de pares/marcas, GDEF e GSUB ccmp para composições portuguesas. H + agudo sem precomposto verifica posicionamento real de marca independentemente da composição.
+
+Não oferecidos: fontes variáveis, hinting, importação de fontes locais, marca-sobre-marca, múltiplas marcas/contextos arbitrários, grupos/geração automática de kerning, tipografia vertical, ferramentas de pixels/líquido. Validade técnica não comprova qualidade visual.
+
+## Limites e recuperação
+
+| Recurso | Limite |
 | --- | --- |
-| Chromium 151, Linux x86-64, local HTTP | Tested |
-| Chromium, file:// in this cloud image | Blocked by administrator URL policy; not executed |
-| Recent Chrome/Edge on desktop, ordinary file:// | Expected from embedded assets; needs an unrestricted device check |
-| Current Firefox / Safari | Targeted standard DOM/Canvas/SVG/Blob APIs; not executed |
-| Mobile Chrome / Safari on physical devices | Not executed; 390 × 844 Chromium viewport tested |
+| Referência | 8 MB; 4096 × 4096; 24 imagens |
+| Projeto JSON | 32 MB |
+| Glifos / estilos | 256 / 24 |
+| Comandos por glifo/componente | 8000 |
+| Coordenadas / avanço | ±10.000 / 0–4000 unidades |
+| Histórico | 40 etapas / 64 MB serializados |
+| Texto da prova | 12.000 caracteres |
+| Vetorização raster | até 220 × 280, preservando proporção |
+| Imagem corrigida | até 1200 × 700 |
 
-Tests used a Linux cloud machine with four CPU cores of quota and 32 GiB memory limit. See `IMPLEMENTATION_REPORT.md` and the saved machine-readable results. Browser tests are functional automation, not professional type-design approval or an accessibility conformance certification.
+São limites, não garantias de desempenho. Vetorização e perspectiva por vizinho mais próximo podem perder detalhes. Largura corrigida 0 preserva proporção. SVG aceita geometria preenchida simples e rejeita scripts, eventos, entidades, recursos externos, estilos, texto, imagens, filtros, máscaras, traços/retângulos arredondados não convertidos e viewports aninhados.
 
-For reproducible developer checks, install Python `playwright`, `fonttools` and `uharfbuzz`, provide Chromium at `/usr/bin/chromium` (or adjust the script path), then serve this directory and run:
+Falha de armazenamento mantém edição e pede backup. Salvamento ilegível é preservado para download bruto, sem sobrescrita. Importação inválida mantém o projeto. Histórico não sobrevive à recarga. Origens file:// e HTTP têm armazenamento separado: transfira por JSON. Projetos da versão anterior continuam compatíveis.
+
+## Navegadores e verificações
+
+Chromium 151/Linux x86-64 em HTTP local: automação executada. Viewports 1440 × 1100 e 390 × 844. Máquina: quatro núcleos de quota e 32 GiB. A tentativa file:// nesta máquina é bloqueada por política administrativa. Firefox, Safari, instalação desktop, celulares físicos e limites máximos não foram testados aqui.
+
+Veja `RELATORIO_ATUALIZACAO.md` e resultados em `tests/`. `IMPLEMENTATION_REPORT.md` e `README_V1_EN.md` são registros históricos da primeira versão.
+
+Com Python playwright/fonttools/uharfbuzz e Chromium em `/usr/bin/chromium`, inicie o servidor local e execute:
 
 ```sh
 python tests/build.py
 python tests/browser_checks.py
-python tests/family_checks.py
 python tests/editor_checks.py
+python tests/revision_checks.py
+python tests/family_checks.py
 python tests/validate_fonts.py
 python tests/delivery_checks.py
+python tests/native_family_checks.py
 ```
 
-Optional `python tests/native_family_checks.py` requires Fontconfig's `fc-scan`; it scans family/slant recognition without installing fonts. Direct-file checks record administrator policy blocks instead of bypassing them.
+O último requer Fontconfig (`fc-scan`); não instala fontes. Dependências já empacotadas em `src/vendor.js`; compilação reúne shell e módulos em HTML. Manifestos fixados em `tests/` permitem recompilar bibliotecas em diretório de desenvolvimento separado. Usuários finais precisam apenas do HTML.
 
-`tests/build.py` combines the already bundled `src/vendor.js`, shell and application source. End users only need the shipped HTML. To rebuild dependencies, use the pinned package/lock manifests in `tests/` in a separate development directory, then bundle `src/vendor-entry.js` with esbuild and replace `src/vendor.js`. Runtime notices are embedded from `LICENSES.txt`; retain them when redistributing the single HTML file.
+## Licenças e publicação
 
-## Publication files and licensing
+Código, peças e ativos originais: MIT (`LICENSE`). Dependências mantêm avisos completos em `LICENSES.txt` e no HTML; créditos em `DEPENDENCIES.md`. Sem fontes/imagens de terceiros sem licença. Preserve avisos na redistribuição.
 
-`assets/` contains the original logo/icon, publication card and actual desktop/mobile screenshots. `examples/` contains original starter-based candidate fonts, SVG proofs, an editable study and a full family ZIP. They demonstrate plumbing and editable geometry, not finished commercial typography. Example licences are explicit in their metadata/package README. User-imported references and user-created font licences remain the user's responsibility.
-
-Application code, original starter contours and original publication assets: MIT (`LICENSE`). Embedded dependencies retain full upstream notices in `LICENSES.txt`; see `DEPENDENCIES.md` for versions. No third-party font or reference artwork is bundled. “Formaço” is an application identity, with no claim of trademark clearance.
+`assets/`: ícone, cartão e capturas reais. `examples/`: fontes candidatas, SVGs e projetos editáveis, como estudos técnicos originais, não famílias profissionalmente aprovadas. Referências importadas e licença da fonte criada permanecem sob responsabilidade do usuário. Não se afirma disponibilidade jurídica da marca Formaço.

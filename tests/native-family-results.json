@@ -2,7 +2,7 @@
   {
     "file": "FormacoStudy-bold-italic.otf",
     "family": "Forma\u00e7o Study",
-    "style": "Bold Italic",
+    "style": "Negrito It\u00e1lico,Bold Italic",
     "weight": "200",
     "slant": "100",
     "passed": true
@@ -10,39 +10,39 @@
   {
     "file": "FormacoStudy-bold.otf",
     "family": "Forma\u00e7o Study",
-    "style": "Bold",
+    "style": "Negrito,Bold",
     "weight": "200",
     "slant": "0",
     "passed": true
   },
   {
     "file": "FormacoStudy-light-italic.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Light",
-    "style": "Light Italic,Italic",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Leve",
+    "style": "Leve It\u00e1lico,Italic",
     "weight": "50",
     "slant": "100",
     "passed": true
   },
   {
     "file": "FormacoStudy-light.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Light",
-    "style": "Light,Regular",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Leve",
+    "style": "Leve,Regular",
     "weight": "50",
     "slant": "0",
     "passed": true
   },
   {
     "file": "FormacoStudy-medium-italic.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Medium",
-    "style": "Medium Italic,Italic",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study M\u00e9dio",
+    "style": "M\u00e9dio It\u00e1lico,Italic",
     "weight": "100",
     "slant": "100",
     "passed": true
   },
   {
     "file": "FormacoStudy-medium.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Medium",
-    "style": "Medium,Regular",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study M\u00e9dio",
+    "style": "M\u00e9dio,Regular",
     "weight": "100",
     "slant": "0",
     "passed": true
@@ -50,7 +50,7 @@
   {
     "file": "FormacoStudy-regular-italic.otf",
     "family": "Forma\u00e7o Study",
-    "style": "Regular Italic,Italic",
+    "style": "Regular It\u00e1lico,Italic",
     "weight": "80",
     "slant": "100",
     "passed": true
@@ -65,16 +65,16 @@
   },
   {
     "file": "FormacoStudy-semibold-italic.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Semibold",
-    "style": "Semibold Italic,Italic",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Seminegrito",
+    "style": "Seminegrito It\u00e1lico,Italic",
     "weight": "180",
     "slant": "100",
     "passed": true
   },
   {
     "file": "FormacoStudy-semibold.otf",
-    "family": "Forma\u00e7o Study,Forma\u00e7o Study Semibold",
-    "style": "Semibold,Regular",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Seminegrito",
+    "style": "Seminegrito,Regular",
     "weight": "180",
     "slant": "0",
     "passed": true

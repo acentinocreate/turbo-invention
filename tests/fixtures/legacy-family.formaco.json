@@ -1,0 +1,1999 @@
+{
+  "format": "formaco",
+  "version": 1,
+  "revision": 1,
+  "family": "Formaço Study",
+  "designer": "",
+  "license": "MIT License\n\nCopyright (c) 2026 Formaço contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "characters": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "Á",
+    "À",
+    "Â",
+    "Ã",
+    "É",
+    "Ê",
+    "Í",
+    "Ó",
+    "Ô",
+    "Õ",
+    "Ú",
+    "Ü",
+    "Ç",
+    "á",
+    "à",
+    "â",
+    "ã",
+    "é",
+    "ê",
+    "í",
+    "ó",
+    "ô",
+    "õ",
+    "ú",
+    "ü",
+    "ç",
+    " ",
+    " ",
+    ".",
+    ",",
+    ":",
+    ";",
+    "!",
+    "?",
+    "'",
+    "\"",
+    "‘",
+    "’",
+    "“",
+    "”",
+    "«",
+    "»",
+    "(",
+    ")",
+    "[",
+    "]",
+    "{",
+    "}",
+    "-",
+    "–",
+    "—",
+    "…",
+    "/",
+    "\\",
+    "@",
+    "#",
+    "&",
+    "%",
+    "+",
+    "−",
+    "=",
+    "*",
+    "_",
+    "$",
+    "€",
+    "£",
+    "º",
+    "ª",
+    "́",
+    "̀",
+    "̂",
+    "̃",
+    "̈",
+    "̧"
+  ],
+  "styles": [
+    {
+      "id": "light",
+      "name": "Light",
+      "weight": 300,
+      "kind": "upright",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 50
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "light-italic",
+      "name": "Light Italic",
+      "weight": 300,
+      "kind": "italic",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 50
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "regular",
+      "name": "Regular",
+      "weight": 400,
+      "kind": "upright",
+      "enabled": true,
+      "glyphs": {
+        "g": {
+          "contours": [
+            [
+              {
+                "type": "M",
+                "x": 55,
+                "y": 250
+              },
+              {
+                "type": "L",
+                "x": 61,
+                "y": 200
+              },
+              {
+                "type": "L",
+                "x": 75,
+                "y": 151
+              },
+              {
+                "type": "L",
+                "x": 99,
+                "y": 106
+              },
+              {
+                "type": "L",
+                "x": 132,
+                "y": 68
+              },
+              {
+                "type": "L",
+                "x": 172,
+                "y": 37
+              },
+              {
+                "type": "L",
+                "x": 218,
+                "y": 15
+              },
+              {
+                "type": "L",
+                "x": 266,
+                "y": 3
+              },
+              {
+                "type": "L",
+                "x": 317,
+                "y": 2
+              },
+              {
+                "type": "L",
+                "x": 366,
+                "y": 12
+              },
+              {
+                "type": "L",
+                "x": 412,
+                "y": 33
+              },
+              {
+                "type": "L",
+                "x": 453,
+                "y": 62
+              },
+              {
+                "type": "L",
+                "x": 470,
+                "y": 57
+              },
+              {
+                "type": "L",
+                "x": 470,
+                "y": 6
+              },
+              {
+                "type": "L",
+                "x": 470,
+                "y": -45
+              },
+              {
+                "type": "L",
+                "x": 459,
+                "y": -85
+              },
+              {
+                "type": "L",
+                "x": 430,
+                "y": -116
+              },
+              {
+                "type": "L",
+                "x": 388,
+                "y": -139
+              },
+              {
+                "type": "L",
+                "x": 340,
+                "y": -151
+              },
+              {
+                "type": "L",
+                "x": 289,
+                "y": -156
+              },
+              {
+                "type": "L",
+                "x": 239,
+                "y": -156
+              },
+              {
+                "type": "L",
+                "x": 188,
+                "y": -150
+              },
+              {
+                "type": "L",
+                "x": 144,
+                "y": -138
+              },
+              {
+                "type": "L",
+                "x": 118,
+                "y": -125
+              },
+              {
+                "type": "L",
+                "x": 95,
+                "y": -118
+              },
+              {
+                "type": "L",
+                "x": 96,
+                "y": -143
+              },
+              {
+                "type": "L",
+                "x": 134,
+                "y": -175
+              },
+              {
+                "type": "L",
+                "x": 179,
+                "y": -197
+              },
+              {
+                "type": "L",
+                "x": 227,
+                "y": -211
+              },
+              {
+                "type": "L",
+                "x": 278,
+                "y": -218
+              },
+              {
+                "type": "L",
+                "x": 328,
+                "y": -217
+              },
+              {
+                "type": "L",
+                "x": 373,
+                "y": -216
+              },
+              {
+                "type": "L",
+                "x": 423,
+                "y": -206
+              },
+              {
+                "type": "L",
+                "x": 471,
+                "y": -191
+              },
+              {
+                "type": "L",
+                "x": 502,
+                "y": -181
+              },
+              {
+                "type": "L",
+                "x": 506,
+                "y": -205
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": -187
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": -136
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": -86
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": -35
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 16
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 67
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 117
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 168
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 219
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 270
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 320
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 372
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 422
+              },
+              {
+                "type": "L",
+                "x": 539,
+                "y": 473
+              },
+              {
+                "type": "L",
+                "x": 516,
+                "y": 500
+              },
+              {
+                "type": "L",
+                "x": 484,
+                "y": 481
+              },
+              {
+                "type": "L",
+                "x": 472,
+                "y": 442
+              },
+              {
+                "type": "L",
+                "x": 453,
+                "y": 438
+              },
+              {
+                "type": "L",
+                "x": 412,
+                "y": 468
+              },
+              {
+                "type": "L",
+                "x": 366,
+                "y": 488
+              },
+              {
+                "type": "L",
+                "x": 317,
+                "y": 498
+              },
+              {
+                "type": "L",
+                "x": 266,
+                "y": 497
+              },
+              {
+                "type": "L",
+                "x": 218,
+                "y": 485
+              },
+              {
+                "type": "L",
+                "x": 172,
+                "y": 463
+              },
+              {
+                "type": "L",
+                "x": 132,
+                "y": 432
+              },
+              {
+                "type": "L",
+                "x": 99,
+                "y": 394
+              },
+              {
+                "type": "L",
+                "x": 75,
+                "y": 349
+              },
+              {
+                "type": "L",
+                "x": 61,
+                "y": 300
+              },
+              {
+                "type": "Z"
+              }
+            ],
+            [
+              {
+                "type": "M",
+                "x": 124,
+                "y": 250
+              },
+              {
+                "type": "L",
+                "x": 125,
+                "y": 268
+              },
+              {
+                "type": "L",
+                "x": 127,
+                "y": 286
+              },
+              {
+                "type": "L",
+                "x": 131,
+                "y": 303
+              },
+              {
+                "type": "L",
+                "x": 136,
+                "y": 320
+              },
+              {
+                "type": "L",
+                "x": 143,
+                "y": 337
+              },
+              {
+                "type": "L",
+                "x": 151,
+                "y": 352
+              },
+              {
+                "type": "L",
+                "x": 161,
+                "y": 367
+              },
+              {
+                "type": "L",
+                "x": 172,
+                "y": 381
+              },
+              {
+                "type": "L",
+                "x": 185,
+                "y": 394
+              },
+              {
+                "type": "L",
+                "x": 198,
+                "y": 405
+              },
+              {
+                "type": "L",
+                "x": 213,
+                "y": 415
+              },
+              {
+                "type": "L",
+                "x": 228,
+                "y": 425
+              },
+              {
+                "type": "L",
+                "x": 244,
+                "y": 431
+              },
+              {
+                "type": "L",
+                "x": 262,
+                "y": 436
+              },
+              {
+                "type": "L",
+                "x": 279,
+                "y": 439
+              },
+              {
+                "type": "L",
+                "x": 297,
+                "y": 440
+              },
+              {
+                "type": "L",
+                "x": 315,
+                "y": 439
+              },
+              {
+                "type": "L",
+                "x": 333,
+                "y": 436
+              },
+              {
+                "type": "L",
+                "x": 350,
+                "y": 431
+              },
+              {
+                "type": "L",
+                "x": 366,
+                "y": 425
+              },
+              {
+                "type": "L",
+                "x": 382,
+                "y": 415
+              },
+              {
+                "type": "L",
+                "x": 396,
+                "y": 405
+              },
+              {
+                "type": "L",
+                "x": 410,
+                "y": 394
+              },
+              {
+                "type": "L",
+                "x": 422,
+                "y": 381
+              },
+              {
+                "type": "L",
+                "x": 433,
+                "y": 367
+              },
+              {
+                "type": "L",
+                "x": 443,
+                "y": 352
+              },
+              {
+                "type": "L",
+                "x": 452,
+                "y": 337
+              },
+              {
+                "type": "L",
+                "x": 458,
+                "y": 320
+              },
+              {
+                "type": "L",
+                "x": 463,
+                "y": 303
+              },
+              {
+                "type": "L",
+                "x": 467,
+                "y": 286
+              },
+              {
+                "type": "L",
+                "x": 469,
+                "y": 268
+              },
+              {
+                "type": "L",
+                "x": 470,
+                "y": 250
+              },
+              {
+                "type": "L",
+                "x": 469,
+                "y": 232
+              },
+              {
+                "type": "L",
+                "x": 467,
+                "y": 215
+              },
+              {
+                "type": "L",
+                "x": 463,
+                "y": 197
+              },
+              {
+                "type": "L",
+                "x": 458,
+                "y": 180
+              },
+              {
+                "type": "L",
+                "x": 452,
+                "y": 163
+              },
+              {
+                "type": "L",
+                "x": 443,
+                "y": 148
+              },
+              {
+                "type": "L",
+                "x": 433,
+                "y": 133
+              },
+              {
+                "type": "L",
+                "x": 422,
+                "y": 119
+              },
+              {
+                "type": "L",
+                "x": 410,
+                "y": 106
+              },
+              {
+                "type": "L",
+                "x": 396,
+                "y": 95
+              },
+              {
+                "type": "L",
+                "x": 382,
+                "y": 85
+              },
+              {
+                "type": "L",
+                "x": 366,
+                "y": 76
+              },
+              {
+                "type": "L",
+                "x": 350,
+                "y": 69
+              },
+              {
+                "type": "L",
+                "x": 333,
+                "y": 64
+              },
+              {
+                "type": "L",
+                "x": 315,
+                "y": 61
+              },
+              {
+                "type": "L",
+                "x": 297,
+                "y": 60
+              },
+              {
+                "type": "L",
+                "x": 279,
+                "y": 61
+              },
+              {
+                "type": "L",
+                "x": 262,
+                "y": 64
+              },
+              {
+                "type": "L",
+                "x": 244,
+                "y": 69
+              },
+              {
+                "type": "L",
+                "x": 228,
+                "y": 76
+              },
+              {
+                "type": "L",
+                "x": 213,
+                "y": 85
+              },
+              {
+                "type": "L",
+                "x": 198,
+                "y": 95
+              },
+              {
+                "type": "L",
+                "x": 185,
+                "y": 106
+              },
+              {
+                "type": "L",
+                "x": 172,
+                "y": 119
+              },
+              {
+                "type": "L",
+                "x": 161,
+                "y": 133
+              },
+              {
+                "type": "L",
+                "x": 151,
+                "y": 148
+              },
+              {
+                "type": "L",
+                "x": 143,
+                "y": 163
+              },
+              {
+                "type": "L",
+                "x": 136,
+                "y": 180
+              },
+              {
+                "type": "L",
+                "x": 131,
+                "y": 197
+              },
+              {
+                "type": "L",
+                "x": 127,
+                "y": 215
+              },
+              {
+                "type": "L",
+                "x": 125,
+                "y": 232
+              },
+              {
+                "type": "Z"
+              }
+            ]
+          ],
+          "advance": 594,
+          "status": "candidate",
+          "locked": false,
+          "source": [],
+          "components": [
+            "bowl",
+            "vertical"
+          ],
+          "anchors": {
+            "top": [
+              297,
+              532
+            ],
+            "bottom": [
+              297,
+              -10
+            ]
+          },
+          "adjust": {
+            "top": [
+              0,
+              0
+            ],
+            "bottom": [
+              0,
+              0
+            ]
+          },
+          "relationship": "masters",
+          "anchorsAuto": false,
+          "revision": 1,
+          "componentVersions": {
+            "bowl": {
+              "revision": 0,
+              "source": "Independent starter drawing",
+              "policy": "proportional"
+            },
+            "vertical": {
+              "revision": 0,
+              "source": "Independent starter drawing",
+              "policy": "proportional"
+            }
+          },
+          "measurements": {
+            "cap": {
+              "requested": 700,
+              "effective": 700,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "xheight": {
+              "requested": 500,
+              "effective": 500,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "ascender": {
+              "requested": 740,
+              "effective": 740,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "descender": {
+              "requested": 220,
+              "effective": 220,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "stem": {
+              "requested": 80,
+              "effective": 80,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "hstem": {
+              "requested": 70,
+              "effective": 70,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "width": {
+              "requested": 550,
+              "effective": 550,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "contrast": {
+              "requested": 1,
+              "effective": 1,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "axis": {
+              "requested": 0,
+              "effective": 0,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "overshoot": {
+              "requested": 12,
+              "effective": 12,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "aperture": {
+              "requested": 110,
+              "effective": 110,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            },
+            "slant": {
+              "requested": 0,
+              "effective": 0,
+              "source": "Starter proposal",
+              "kind": "user-defined",
+              "confidence": "Awaiting decision",
+              "policy": "proportional"
+            }
+          },
+          "styleStem": {
+            "requested": 50,
+            "effective": 50,
+            "source": "Weight proposal / user style parameter"
+          },
+          "notes": [],
+          "decisions": {
+            "mode": "coherent",
+            "a": "single",
+            "g": "single",
+            "opening": "open",
+            "terminal": "plain",
+            "iAccent": "replace",
+            "approved": true
+          },
+          "masters": [
+            "light",
+            "bold"
+          ]
+        }
+      },
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 80
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "regular-italic",
+      "name": "Regular Italic",
+      "weight": 400,
+      "kind": "italic",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 80
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "weight": 500,
+      "kind": "upright",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 95
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "medium-italic",
+      "name": "Medium Italic",
+      "weight": 500,
+      "kind": "italic",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 95
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "semibold",
+      "name": "Semibold",
+      "weight": 600,
+      "kind": "upright",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 110
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "semibold-italic",
+      "name": "Semibold Italic",
+      "weight": 600,
+      "kind": "italic",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 110
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "bold",
+      "name": "Bold",
+      "weight": 700,
+      "kind": "upright",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 125
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    },
+    {
+      "id": "bold-italic",
+      "name": "Bold Italic",
+      "weight": 700,
+      "kind": "italic",
+      "enabled": true,
+      "glyphs": {},
+      "kerning": {
+        "AV": -60
+      },
+      "params": {
+        "stem": 125
+      },
+      "relationship": "independent",
+      "review": false,
+      "masterApproved": false
+    }
+  ],
+  "references": [],
+  "components": {
+    "vertical": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "vertical",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "horizontal": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "horizontal",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "diagonal": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "diagonal",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "bowl": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.5,
+            "y": 0
+          },
+          {
+            "type": "C",
+            "x1": 0.7761423749,
+            "y1": 0,
+            "x2": 1,
+            "y2": 0.2238576251,
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 1,
+            "y1": 0.7761423749,
+            "x2": 0.7761423749,
+            "y2": 1,
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.2238576251,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0.7761423749,
+            "x": 0,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0,
+            "y1": 0.2238576251,
+            "x2": 0.2238576251,
+            "y2": 0,
+            "x": 0.5,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ],
+        [
+          {
+            "type": "M",
+            "x": 0.5,
+            "y": 0.145
+          },
+          {
+            "type": "C",
+            "x1": 0.303938913821,
+            "y1": 0.145,
+            "x2": 0.145,
+            "y2": 0.303938913821,
+            "x": 0.145,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0.145,
+            "y1": 0.696061086179,
+            "x2": 0.303938913821,
+            "y2": 0.855,
+            "x": 0.5,
+            "y": 0.855
+          },
+          {
+            "type": "C",
+            "x1": 0.696061086179,
+            "y1": 0.855,
+            "x2": 0.855,
+            "y2": 0.696061086179,
+            "x": 0.855,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0.855,
+            "y1": 0.303938913821,
+            "x2": 0.696061086179,
+            "y2": 0.145,
+            "x": 0.5,
+            "y": 0.145
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "bowl",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "arch": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.16,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.16,
+            "y": 0.65
+          },
+          {
+            "type": "C",
+            "x1": 0.16,
+            "y1": 0.91,
+            "x2": 0.35,
+            "y2": 1,
+            "x": 0.52,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.83,
+            "y1": 1,
+            "x2": 1,
+            "y2": 0.83,
+            "x": 1,
+            "y": 0.54
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.84,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.84,
+            "y": 0.54
+          },
+          {
+            "type": "C",
+            "x1": 0.84,
+            "y1": 0.76,
+            "x2": 0.72,
+            "y2": 0.84,
+            "x": 0.52,
+            "y": 0.84
+          },
+          {
+            "type": "C",
+            "x1": 0.29,
+            "y1": 0.84,
+            "x2": 0.16,
+            "y2": 0.74,
+            "x": 0.16,
+            "y": 0.52
+          },
+          {
+            "type": "L",
+            "x": 0,
+            "y": 0.52
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "arch",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "serif": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0.4
+          },
+          {
+            "type": "C",
+            "x1": 0.72,
+            "y1": 0.4,
+            "x2": 0.6,
+            "y2": 0.6,
+            "x": 0.6,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.4,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.4,
+            "y1": 0.6,
+            "x2": 0.28,
+            "y2": 0.4,
+            "x": 0,
+            "y": 0.4
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "optical",
+      "name": "serif",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "terminal": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.5,
+            "y": 0
+          },
+          {
+            "type": "C",
+            "x1": 0.7761423749,
+            "y1": 0,
+            "x2": 1,
+            "y2": 0.2238576251,
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 1,
+            "y1": 0.7761423749,
+            "x2": 0.7761423749,
+            "y2": 1,
+            "x": 0.5,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.2238576251,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0.7761423749,
+            "x": 0,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0,
+            "y1": 0.2238576251,
+            "x2": 0.2238576251,
+            "y2": 0,
+            "x": 0.5,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "terminal",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "acute": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.08,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.46,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.48,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "acute",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "grave": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.52,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.54,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.92,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "grave",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "circumflex": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.37,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.63,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.73,
+            "y": 0
+          },
+          {
+            "type": "L",
+            "x": 0.5,
+            "y": 0.58
+          },
+          {
+            "type": "L",
+            "x": 0.27,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "circumflex",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "tilde": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0,
+            "y": 0.2
+          },
+          {
+            "type": "C",
+            "x1": 0.25,
+            "y1": 0.95,
+            "x2": 0.38,
+            "y2": 0.95,
+            "x": 0.6,
+            "y": 0.56
+          },
+          {
+            "type": "C",
+            "x1": 0.72,
+            "y1": 0.3,
+            "x2": 0.84,
+            "y2": 0.35,
+            "x": 1,
+            "y": 0.9
+          },
+          {
+            "type": "L",
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0.8,
+            "y1": -0.05,
+            "x2": 0.64,
+            "y2": -0.05,
+            "x": 0.45,
+            "y": 0.33
+          },
+          {
+            "type": "C",
+            "x1": 0.29,
+            "y1": 0.63,
+            "x2": 0.19,
+            "y2": 0.56,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "tilde",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "diaeresis": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.15,
+            "y": 0
+          },
+          {
+            "type": "C",
+            "x1": 0.23284271247,
+            "y1": 0,
+            "x2": 0.3,
+            "y2": 0.2238576251,
+            "x": 0.3,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0.3,
+            "y1": 0.7761423749,
+            "x2": 0.23284271247,
+            "y2": 1,
+            "x": 0.15,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.06715728753,
+            "y1": 1,
+            "x2": 0,
+            "y2": 0.7761423749,
+            "x": 0,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0,
+            "y1": 0.2238576251,
+            "x2": 0.06715728753,
+            "y2": 0,
+            "x": 0.15,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ],
+        [
+          {
+            "type": "M",
+            "x": 0.85,
+            "y": 0
+          },
+          {
+            "type": "C",
+            "x1": 0.93284271247,
+            "y1": 0,
+            "x2": 1,
+            "y2": 0.2238576251,
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 1,
+            "y1": 0.7761423749,
+            "x2": 0.93284271247,
+            "y2": 1,
+            "x": 0.85,
+            "y": 1
+          },
+          {
+            "type": "C",
+            "x1": 0.76715728753,
+            "y1": 1,
+            "x2": 0.7,
+            "y2": 0.7761423749,
+            "x": 0.7,
+            "y": 0.5
+          },
+          {
+            "type": "C",
+            "x1": 0.7,
+            "y1": 0.2238576251,
+            "x2": 0.76715728753,
+            "y2": 0,
+            "x": 0.85,
+            "y": 0
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "proportional",
+      "name": "diaeresis",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    },
+    "cedilla": {
+      "contours": [
+        [
+          {
+            "type": "M",
+            "x": 0.4,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.8,
+            "y": 1
+          },
+          {
+            "type": "L",
+            "x": 0.56,
+            "y": 0.72
+          },
+          {
+            "type": "C",
+            "x1": 1,
+            "y1": 0.7,
+            "x2": 1,
+            "y2": 0.2,
+            "x": 0.6,
+            "y": 0.05
+          },
+          {
+            "type": "C",
+            "x1": 0.38,
+            "y1": -0.02,
+            "x2": 0.12,
+            "y2": 0.02,
+            "x": 0,
+            "y": 0.2
+          },
+          {
+            "type": "L",
+            "x": 0.15,
+            "y": 0.4
+          },
+          {
+            "type": "C",
+            "x1": 0.35,
+            "y1": 0.23,
+            "x2": 0.68,
+            "y2": 0.25,
+            "x": 0.65,
+            "y": 0.43
+          },
+          {
+            "type": "C",
+            "x1": 0.62,
+            "y1": 0.56,
+            "x2": 0.25,
+            "y2": 0.47,
+            "x": 0.2,
+            "y": 0.52
+          },
+          {
+            "type": "Z"
+          }
+        ]
+      ],
+      "policy": "optical",
+      "name": "cedilla",
+      "approved": false,
+      "source": "Independent starter drawing",
+      "revision": 0
+    }
+  },
+  "features": {
+    "cap": {
+      "requested": 700,
+      "effective": 700,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "xheight": {
+      "requested": 500,
+      "effective": 500,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "ascender": {
+      "requested": 740,
+      "effective": 740,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "descender": {
+      "requested": 220,
+      "effective": 220,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "stem": {
+      "requested": 80,
+      "effective": 80,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "hstem": {
+      "requested": 70,
+      "effective": 70,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "width": {
+      "requested": 550,
+      "effective": 550,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "contrast": {
+      "requested": 1,
+      "effective": 1,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "axis": {
+      "requested": 0,
+      "effective": 0,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "overshoot": {
+      "requested": 12,
+      "effective": 12,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "aperture": {
+      "requested": 110,
+      "effective": 110,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    },
+    "slant": {
+      "requested": 0,
+      "effective": 0,
+      "source": "Starter proposal",
+      "kind": "user-defined",
+      "confidence": "Awaiting decision",
+      "policy": "proportional"
+    }
+  },
+  "decisions": {
+    "mode": "coherent",
+    "a": "double",
+    "g": "single",
+    "opening": "open",
+    "terminal": "plain",
+    "iAccent": "replace",
+    "approved": false
+  },
+  "preview": {
+    "text": "Á À Â Ã É Ê Í Ó Ô Õ Ú Ü Ç\ná à â ã é ê í ó ô õ ú ü ç\nAção, órgão, frequência. 1º / 2ª — «Olá!»\nÁ ã Ç ü",
+    "size": 64,
+    "tracking": 0,
+    "leading": 1.6,
+    "ink": "#292a25",
+    "paper": "#faf9f5",
+    "mono": false
+  },
+  "selection": {
+    "char": "H",
+    "style": "regular"
+  }
+}
