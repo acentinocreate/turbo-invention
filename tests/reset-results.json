@@ -1,0 +1,70 @@
+[
+  {
+    "check": "Opening confirmation preserves project",
+    "passed": true
+  },
+  {
+    "check": "Cancel preserves project",
+    "passed": true
+  },
+  {
+    "check": "Backup contains prior project",
+    "passed": true
+  },
+  {
+    "check": "Reset removes references glyphs notes and kerning",
+    "passed": true
+  },
+  {
+    "check": "Defaults are unapproved with ten enabled styles",
+    "passed": true
+  },
+  {
+    "check": "Custom Unicode mappings are removed",
+    "passed": true
+  },
+  {
+    "check": "Reference controls reset",
+    "passed": true
+  },
+  {
+    "check": "Theme preserved",
+    "passed": true
+  },
+  {
+    "check": "Undo recovers entire prior project",
+    "passed": true
+  },
+  {
+    "check": "Autosave contains empty project",
+    "passed": true
+  },
+  {
+    "check": "Reload keeps new empty project",
+    "passed": true
+  },
+  {
+    "check": "Mobile has no page overflow",
+    "passed": true
+  },
+  {
+    "check": "Corrupt autosave is preserved after reset",
+    "passed": true
+  },
+  {
+    "check": "Recovery remains available",
+    "passed": true
+  },
+  {
+    "check": "No JavaScript errors",
+    "passed": true
+  },
+  {
+    "check": "No remote requests",
+    "passed": true
+  },
+  {
+    "check": "Storage failure keeps editing usable and requests backup",
+    "passed": true
+  }
+]

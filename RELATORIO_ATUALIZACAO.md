@@ -1,6 +1,14 @@
-# Formaço 2.0 — atualização solicitada
+# Formaço 2.0.1 — atualização solicitada
 
 Data: 2026-10-05. Aplicativo: `index.html`, independente dos documentos. Interface e vocabulário tipográfico em português. Fontes/arte de terceiros não foram adicionadas; módulos novos são código original sob MIT.
+
+## Atualização 2.0.1: novo projeto
+
+Adicionado **Novo projeto** no topo, com confirmação, download opcional da cópia anterior e recuperação por Desfazer durante a sessão. Limpa referências, glifos, notas, mapeamentos personalizados, ajustes de pares e decisões; repõe estilos e componentes iniciais sem aprovação. Mantém o tema e reinicia controles de referência e edição. O projeto novo substitui o salvamento saudável, mas não sobrescreve dados ilegíveis preservados para recuperação.
+
+Executados em Chromium 151, HTTP local, 1440 × 1100 e 390 × 844: **17 verificações de reinício aprovadas**, em `tests/reset-results.json`, incluindo cancelar, cópia JSON, desfazer/refazer, recarregar, tema, ausência de transbordamento móvel, armazenamento cheio, recuperação, erros de console e chamadas remotas. Também reexecutadas as **24 verificações gerais do navegador**, todas aprovadas. Reprodução: `python -m http.server 8080`, depois `python tests/reset_checks.py` e `python tests/browser_checks.py` com Playwright Python e Chromium em `/usr/bin/chromium`.
+
+Os testes de fontes e demais verificações abaixo correspondem à versão 2.0 e não foram reexecutados para esta mudança de interface. A geração de contornos e fontes não foi alterada. A restrição administrativa a file:// permanece; esta atualização foi testada por HTTP, sem afirmar um teste local file:// executado.
 
 ## Mudanças implementadas
 

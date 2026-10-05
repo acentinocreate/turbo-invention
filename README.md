@@ -1,4 +1,4 @@
-# Formaço — versão 2.0
+# Formaço — versão 2.0.1
 
 Ateliê tipográfico local para reconstruir referências autorizadas, extrair construções, desenhar glifos vetoriais e desenvolver famílias editáveis. Interface, mensagens e termos tipográficos em português.
 
@@ -7,6 +7,10 @@ Ateliê tipográfico local para reconstruir referências autorizadas, extrair co
 Extraia a pasta e abra **index.html** no navegador. O HTML contém CSS, JavaScript, bibliotecas e avisos completos de licença. Nenhuma instalação, compilação, conta, chave, CDN ou servidor é necessária para editar e exportar. O funcionamento normal não faz chamadas de rede. Os documentos não são dependências do aplicativo.
 
 Para desenvolvimento, opcionalmente execute `python -m http.server 8080` na pasta. Cada tarefa na nuvem já possui checkout isolado; use-o sem criar worktrees adicionais, salvo solicitação explícita.
+
+## Começar do zero
+
+No topo, clique em **Novo projeto**. Para guardar o trabalho anterior, clique em **Salvar projeto atual** na janela. Depois clique em **Começar do zero**; **Cancelar** mantém tudo como está. O projeto fica vazio de referências e desenhos, com estilos e componentes iniciais sem aprovação. O tema é mantido. **Desfazer** recupera o projeto anterior enquanto o histórico desta sessão existir; após fechar ou recarregar, use a cópia JSON salva. O salvamento local passa a guardar o novo projeto. Dados ilegíveis de uma sessão de recuperação continuam preservados e exigem cópia JSON do novo trabalho.
 
 ## Novidades
 
