@@ -1,0 +1,107 @@
+[
+  {
+    "check": "One/multiple reference geometry extraction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Exact-preservation constraint rejects resizing",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Style component override separate from shared",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Numeric pen/closed contour construction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Editable cubic handles and subdivision",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Real contour splitting",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Contour joining/closure",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Advance control applied",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Requested/effective node values retained",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Boolean union retains compound counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Accented i has separate dot removed",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Preview composed/decomposed agreement",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "ring.png import and counter tracing",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "ring.jpg import and counter tracing",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Real crop/rotation/perspective, original retained",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Actual failed file import retains current project",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Imported/typed text is not executable HTML",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Supplementary Unicode scalar accepted",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Independent supplementary cmap extraction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No console errors in reference/editor workflow",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "check": "No uncaught editor exceptions",
+    "passed": true,
+    "detail": "[]"
+  }
+]

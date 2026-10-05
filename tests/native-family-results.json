@@ -1,0 +1,82 @@
+[
+  {
+    "file": "FormacoStudy-bold-italic.otf",
+    "family": "Forma\u00e7o Study",
+    "style": "Bold Italic",
+    "weight": "200",
+    "slant": "100",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-bold.otf",
+    "family": "Forma\u00e7o Study",
+    "style": "Bold",
+    "weight": "200",
+    "slant": "0",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-light-italic.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Light",
+    "style": "Light Italic,Italic",
+    "weight": "50",
+    "slant": "100",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-light.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Light",
+    "style": "Light,Regular",
+    "weight": "50",
+    "slant": "0",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-medium-italic.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Medium",
+    "style": "Medium Italic,Italic",
+    "weight": "100",
+    "slant": "100",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-medium.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Medium",
+    "style": "Medium,Regular",
+    "weight": "100",
+    "slant": "0",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-regular-italic.otf",
+    "family": "Forma\u00e7o Study",
+    "style": "Regular Italic,Italic",
+    "weight": "80",
+    "slant": "100",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-regular.otf",
+    "family": "Forma\u00e7o Study",
+    "style": "Regular",
+    "weight": "80",
+    "slant": "0",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-semibold-italic.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Semibold",
+    "style": "Semibold Italic,Italic",
+    "weight": "180",
+    "slant": "100",
+    "passed": true
+  },
+  {
+    "file": "FormacoStudy-semibold.otf",
+    "family": "Forma\u00e7o Study,Forma\u00e7o Study Semibold",
+    "style": "Semibold,Regular",
+    "weight": "180",
+    "slant": "0",
+    "passed": true
+  }
+]

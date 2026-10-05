@@ -1,0 +1,72 @@
+[
+  {
+    "check": "Different weights change arches and stems",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Compatible-master interpolation executes",
+    "passed": true,
+    "detail": "{\"repaired\": 40, \"blocked\": [\"D: Contour counts differ. Draw the extremes with the same topology first.\", \"e: Contour counts differ. Draw the extremes with the same topology first.\", \"4: Contour counts differ. Draw the extremes with the same topology first.\", \"\\u00e9: Contour counts differ. Draw the extremes with the same topology first.\", \"\\u00ea: Contour counts differ. Draw the extremes with the same topology first.\", \"@: Contour counts differ. Draw the extremes with the same topology first.\", \"&: Contour counts differ. Draw the extremes with the same topology first.\", \"$: Contour counts differ. Draw the extremes with the same topology first.\", \"\\u20ac: Contour counts differ. Draw the extremes with the same topology first.\", \"\\u00aa: Contour counts differ. Draw the extremes with the same topology first.\"], \"interpolated\": 375, \"errors\": [\"D: contour count; redraw compatible extremes or keep independent\", \"e: contour count; redraw compatible extremes or keep independent\", \"4: contour count; redraw compatible extremes or keep independent\", \"\\u00e9: contour count; redraw compatible extremes or keep independent\", \"\\u00ea: contour count; redraw compatible extremes or keep independent\", \"?: interpolation self-intersection in contour 2; repair correspondence or draw independently\", \"@: contour count; redraw compatible extremes or keep independent\", \"&: contour count; redraw compatible extremes or keep independent\", \"$: contour count; redraw compatible extremes or keep independent\", \"\\u20ac: contour count; redraw compatible extremes or keep independent\", \"\\u00aa: contour count; redraw compatible extremes or keep independent\", \"D: contour count; redraw compatible extremes or keep independent\", \"e: contour count; redraw compatible extremes or keep independent\", \"4: contour count; redraw compatible extremes or keep independent\", \"\\u00e9: contour count; redraw compatible extremes or keep independent\", \"\\u00ea: contour count; redraw compatible extremes or keep independent\", \"?: interpolation self-intersection in contour 2; repair correspondence or draw independently\", \"@: contour count; redraw compatible extremes or keep independent\", \"&: contour count; redraw compatible extremes or keep independent\", \"$: contour count; redraw compatible extremes or keep independent\", \"\\u20ac: contour count; redraw compatible extremes or keep independent\", \"\\u00aa: contour count; redraw compatible extremes or keep independent\", \"D: contour count; redraw compatible extremes or keep independent\", \"e: contour count; redraw compatible extremes or keep independent\", \"4: contour count; redraw compatible extremes or keep independent\", \"\\u00e9: contour count; redraw compatible extremes or keep independent\", \"\\u00ea: contour count; redraw compatible extremes or keep independent\", \"?: interpolation self-intersection in contour 2; repair correspondence or draw independently\", \"@: contour count; redraw compatible extremes or keep independent\", \"&: contour count; redraw compatible extremes or keep independent\", \"$: contour count; redraw compatible extremes or keep independent\", \"\\u20ac: contour count; redraw compatible extremes or keep independent\", \"\\u00aa: contour count; redraw compatible extremes or keep independent\"]}"
+  },
+  {
+    "check": "All ten style fixtures generated",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "check": "Structural italic vs oblique",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Shared propagation identifies protected overrides",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Oblique is an actual shear of the upright",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Preview uses exported advance and kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Browser loads ten WOFF styles and selects italic",
+    "passed": true,
+    "detail": "{\"count\": 10, \"normal\": 659.9989013671875, \"italic\": 619.9989013671875}"
+  },
+  {
+    "check": "Family ZIP contains fonts, project and README",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Storage failure warning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Edits remain usable after storage failure",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Unreadable autosave retained",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Raw recovery download",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No family browser exceptions",
+    "passed": true,
+    "detail": "[]"
+  }
+]

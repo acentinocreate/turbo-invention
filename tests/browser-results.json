@@ -1,0 +1,122 @@
+[
+  {
+    "check": "HTTP startup",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Original starter",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Reference confirmation and real analysis",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Complete candidate set",
+    "passed": true,
+    "detail": "{\"errors\": [], \"count\": 136, \"expected\": 136}"
+  },
+  {
+    "check": "Generation performance",
+    "passed": true,
+    "detail": "0.13s, Chromium 1440\u00d71100"
+  },
+  {
+    "check": "Approved/manual preservation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "OTF/WOFF export",
+    "passed": true,
+    "detail": "Regular, Light, Bold; independent validation follows"
+  },
+  {
+    "check": "Italic representative gate",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Faithful mode rejects alphabet inference",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Regularized vs coherent construction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Incompatible contours rejected",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Boolean difference preserves counter",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Malformed project rejected without replacement",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SVG script and external resource rejection",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Plain SVG cubic reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SVG import local raster overlay",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Raster correction and tracing",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Conflicting reference measurements surfaced",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Vector transform and undo",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Redo",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Theme switching",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Mobile horizontal overflow",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No uncaught browser errors",
+    "passed": true,
+    "detail": "[]"
+  },
+  {
+    "check": "No ordinary editing network calls",
+    "passed": true,
+    "detail": "['http://127.0.0.1:8080/index.html']"
+  }
+]

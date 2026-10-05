@@ -1,0 +1,27 @@
+[
+  {
+    "check": "family-study.formaco.json",
+    "passed": true,
+    "actual": {
+      "family": "Forma\u00e7o Study",
+      "styles": 10,
+      "references": 0,
+      "characters": 136
+    }
+  },
+  {
+    "check": "starter-study.formaco.json",
+    "passed": true,
+    "actual": {
+      "family": "Forma\u00e7o Study",
+      "styles": 10,
+      "references": 4,
+      "characters": 136
+    }
+  },
+  {
+    "check": "file startup",
+    "status": "blocked",
+    "reason": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/turbo-invention/index.html"
+  }
+]

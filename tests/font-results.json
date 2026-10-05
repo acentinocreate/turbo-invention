@@ -1,0 +1,1102 @@
+[
+  {
+    "check": "FormacoStudy-bold-italic Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic weight class",
+    "passed": true,
+    "detail": "700"
+  },
+  {
+    "check": "FormacoStudy-bold-italic italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 620, 0, 0, 0), (131, 0, 0, -154, 735)]"
+  },
+  {
+    "check": "FormacoStudy-bold-italic WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold-italic WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold weight class",
+    "passed": true,
+    "detail": "700"
+  },
+  {
+    "check": "FormacoStudy-bold italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 660, 0, 0, 0), (131, 0, 0, -330, 735)]"
+  },
+  {
+    "check": "FormacoStudy-bold WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-bold WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic weight class",
+    "passed": true,
+    "detail": "300"
+  },
+  {
+    "check": "FormacoStudy-light-italic italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 620, 0, 0, 0), (131, 0, 0, -154, 735)]"
+  },
+  {
+    "check": "FormacoStudy-light-italic WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light-italic WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light weight class",
+    "passed": true,
+    "detail": "300"
+  },
+  {
+    "check": "FormacoStudy-light italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 660, 0, 0, 0), (131, 0, 0, -330, 735)]"
+  },
+  {
+    "check": "FormacoStudy-light WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-light WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic weight class",
+    "passed": true,
+    "detail": "500"
+  },
+  {
+    "check": "FormacoStudy-medium-italic italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 620, 0, 0, 0), (131, 0, 0, -154, 735)]"
+  },
+  {
+    "check": "FormacoStudy-medium-italic WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium-italic WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium weight class",
+    "passed": true,
+    "detail": "500"
+  },
+  {
+    "check": "FormacoStudy-medium italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 660, 0, 0, 0), (131, 0, 0, -330, 735)]"
+  },
+  {
+    "check": "FormacoStudy-medium WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-medium WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic weight class",
+    "passed": true,
+    "detail": "400"
+  },
+  {
+    "check": "FormacoStudy-regular-italic italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 620, 0, 0, 0), (131, 0, 0, -154, 735)]"
+  },
+  {
+    "check": "FormacoStudy-regular-italic WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular-italic WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular weight class",
+    "passed": true,
+    "detail": "400"
+  },
+  {
+    "check": "FormacoStudy-regular italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 660, 0, 0, 0), (131, 0, 0, -330, 735)]"
+  },
+  {
+    "check": "FormacoStudy-regular WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-regular WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic weight class",
+    "passed": true,
+    "detail": "600"
+  },
+  {
+    "check": "FormacoStudy-semibold-italic italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 620, 0, 0, 0), (131, 0, 0, -154, 735)]"
+  },
+  {
+    "check": "FormacoStudy-semibold-italic WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold-italic WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold Unicode coverage",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold valid tables",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold weight class",
+    "passed": true,
+    "detail": "600"
+  },
+  {
+    "check": "FormacoStudy-semibold italic classification",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold licence metadata",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold family grouping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold PostScript-safe name",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold O real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold o real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold B real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold \u00c1 real contours",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold cedilla outline below baseline",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold designed bearings",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold O preserved counter winding",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold all marks covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold base anchors covered",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold whole SFNT checksum",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold shaping pair kerning",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold NFC / NFD Portuguese shaping",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold actual GPOS mark placement",
+    "passed": true,
+    "detail": "[(8, 660, 0, 0, 0), (131, 0, 0, -330, 735)]"
+  },
+  {
+    "check": "FormacoStudy-semibold WOFF original table checksums",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "FormacoStudy-semibold WOFF equivalent maps/metrics",
+    "passed": true,
+    "detail": ""
+  }
+]
